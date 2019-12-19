@@ -34,7 +34,7 @@ public class RWTC
          Console.WriteLine("Enter your first name");
     
         //--------------------------------------------------------------------------------------------
-        /*When user enter his name then read that name using 'ReadLine' method 
+        /*When user enter his name then read that name using 'ReadLine' method
         present in 'System' namespace and store that output to one variable called 'firstName'.*/
         //--------------------------------------------------------------------------------------------
     
