@@ -28,5 +28,5 @@ public class BIT
 
        Console.WriteLine("Min capacity = {0} and Max capacity = {1}", int.MinValue, int.MaxValue);
 	   Console.WriteLine("Min capacity = {0} and Max capacity = {1}", uint.MinValue, uint.MaxValue);
-	}
+  }
 }
