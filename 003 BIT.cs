@@ -1,6 +1,6 @@
 //--------------------------------------------------------------------------------------------
 /*
-	//Buit in type in C#
+	//built in type in C#
 	There are several buil in types in c#.
 		
 	Boolean type : only store true or false,
@@ -27,6 +27,6 @@ public class BIT
       //-------------------------------------------------------------------------------------------------
 
        Console.WriteLine("Min capacity = {0} and Max capacity = {1}", int.MinValue, int.MaxValue);
-	   Console.WriteLine("Min capacity = {0} and Max capacity = {1}", uint.MinValue, uint.MaxValue);
+       Console.WriteLine("Min capacity = {0} and Max capacity = {1}", uint.MinValue, uint.MaxValue);
   }
 }
