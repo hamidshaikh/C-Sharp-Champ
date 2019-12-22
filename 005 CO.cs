@@ -25,14 +25,14 @@ public class Program
 		Console.WriteLine("i = {0}", i);
 		
 		//--------------------------------------------------------------------------------------
-		// 1) Arithmatic operator : Output of below code will be 10 / 2 = 5
+		// 2) Arithmatic operator : Output of below code will be 10 / 2 = 5
 		//--------------------------------------------------------------------------------------
 		
 		int number = 10, devident = 2;
 		Console.WriteLine(number + " / " + devident + " = " + (number / devident));
 		
 		//--------------------------------------------------------------------------------------
-		// 1) Comparison operator : Output of below code will be '10 / 2 = 5 Is number 10 : true'
+		// 3) Comparison operator : Output of below code will be '10 / 2 = 5 Is number 10 : true'
 		//--------------------------------------------------------------------------------------
 		
 		bool isNumber10 = false;
@@ -43,7 +43,7 @@ public class Program
 		Console.WriteLine("Is number 10 : {0}", isNumber10);
 		
 		//--------------------------------------------------------------------------------------
-		// 1) Ternary Operator : Ternary operator also called short hand operator
+		// 4) Ternary Operator : Ternary operator also called short hand operator
 		//--------------------------------------------------------------------------------------
 		
 		number = 20;
@@ -51,7 +51,7 @@ public class Program
 		Console.WriteLine("Is number 10 : {0}", isNumber10);
 		
 		//--------------------------------------------------------------------------------------
-		// 1) Null Coalesing Operator : We will see in next example.
+		// 5) Null Coalesing Operator : We will see in next example.
 		//--------------------------------------------------------------------------------------
 	}
 }
