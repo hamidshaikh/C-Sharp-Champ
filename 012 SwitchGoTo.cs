@@ -33,7 +33,7 @@ public class SwitchStmt
 			default : 
 				Console.WriteLine("Input '{0}' was wrong ...", coffieSize);
 				goto Choice;
-        //It not make any sense to write break statement after goto.
+        //It not make any sense to write break statement after goto. 
 		}
 		
 		Decision:
