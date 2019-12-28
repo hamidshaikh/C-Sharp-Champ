@@ -35,7 +35,7 @@ public class Program
 		
 		//--------------------------------------------------------------------------------------
 		//Example of foreach loop
-		//Array internally implement IEnumarable loop so we can use forw=each loop on array.
+		//Array internally implement IEnumarable interface so we can use forw=each loop on array.
 		//--------------------------------------------------------------------------------------
 		
 		Console.WriteLine("\nOutput by 'foreach' loop");
