@@ -2,8 +2,8 @@
 /*
 	Method hidding in C#.
 	
-	In case of inheritance if parent and child class have the same method implementation then
-	child class method get executed and parent class method will be hidded.
+	In case of inheritance if parent class reference pointing to child class object then
+	parent class method get executed and child class method will be hidded.
 	That is called method hiding.
 */
 //---------------------------------------------------------------------------------------
@@ -35,15 +35,7 @@ public class Program
 {
 	public static void Main()
 	{
-		//----------------------------------------------------------------------------------------------------
-		// Here we are creating object of derived class and accessing the property of base and derived class.
-		//---------------------------------------------------------------------------------------------------
-		FullTimeEmployee FTE = new FullTimeEmployee();
-		FTE.FirstName = "John";
-		FTE.LastName = "Doe";
-		FTE.FullName();
-		
-		//---------------------------------------------------------------------------------------------------
+                //---------------------------------------------------------------------------------------------------
 		// To call patent class method we have sevaral ways as i.e
 		//---------------------------------------------------------------------------------------------------
 		((Employee)FTE).FullName();
@@ -52,5 +44,14 @@ public class Program
 		EFTE.FirstName = "Sara";
 		EFTE.LastName = "Khan";
 		EFTE.FullName();
+
+
+		//----------------------------------------------------------------------------------------------------
+		// Here we are creating object of derived class and accessing the property of base and derived class.
+		//---------------------------------------------------------------------------------------------------
+		FullTimeEmployee FTE = new FullTimeEmployee();
+		FTE.FirstName = "John";
+		FTE.LastName = "Doe";
+		FTE.FullName();
 	}	
 }
