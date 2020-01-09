@@ -69,3 +69,10 @@ public class Program
 		Console.WriteLine("cd1.Id = {0}, cd1.Id = {1}, && cd2.Name = {2}, cd2.Name = {3}", cd1.Id, cd1.Name, cd2.Id, cd2.Name);
 	}	
 }
+
+
+/*
+  Output : 
+  sd1.Id = 101, sd1.Id = Mark, && sd2.Name = 102, sd2.Name = Marry
+  cd1.Id = 102, cd1.Id = Marry, && cd2.Name = 102, cd2.Name = Marry
+*/
