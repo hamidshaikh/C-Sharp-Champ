@@ -61,3 +61,10 @@ public class Customer
 	public string Name { get; set; }
 	public Gender Gender { get; set; }
 }
+
+/*
+	Output :
+		Customer Name John and Gender Male
+		Customer Name Marry and Gender Female
+		Customer Name Mark and Gender Unknown
+*/
