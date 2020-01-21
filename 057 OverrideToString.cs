@@ -35,6 +35,5 @@ public class Program
 
 /*
 	Output : 
-		Equal
-		Not Equal
+		John Doe
 */
