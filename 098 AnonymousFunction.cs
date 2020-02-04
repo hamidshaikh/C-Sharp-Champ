@@ -55,11 +55,5 @@ namespace Rextester
 
 /*
 	Output :
-		Stack lenght 3
-		Customer Pop of Id 103
-		Stack lenght 2
-		Customer Peek() of Id 102
-		Stack lenght 2
-		102
-		101
+		Id = 102 Name = Mark
 */
